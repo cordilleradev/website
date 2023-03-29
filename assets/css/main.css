@@ -115,11 +115,12 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
-		font-family: 'Courier New', Courier, monospace;
+		color: rgb(255, 255, 255);
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
+
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -2552,7 +2553,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #3915cc;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3256,7 +3257,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #256778;
+			background-color: #4949bf;
 		}
 
 		.wrapper.style3-alt {
