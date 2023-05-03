@@ -40,6 +40,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	color: white
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -281,6 +282,7 @@ body {
 .btn-nav {
 	margin: 0 !important;
   border-radius: 50px !important;
+  
 }
 
 .btn-nav:hover {
@@ -314,6 +316,7 @@ body {
 
 .nav-white span.navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(35, 211, 211, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	fill : white
 }
 
 .nav-white .navbar-nav {
@@ -1191,7 +1194,7 @@ body {
 
 .yd_rev_bg .rev_block {
 	padding: 30px;
-	max-width: 420px;
+	max-width: 500px;
 	background: #FFFFFF;
 	overflow: hidden;
 }
