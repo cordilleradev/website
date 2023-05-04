@@ -49,6 +49,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: black;
 }
 ol, ul {
 	list-style: none;
@@ -168,7 +169,7 @@ body {
 }
 
 .tld2 {
-	background: #23D3D3;
+	background: #1e266d;
 }
 
 .tld-text {
@@ -650,7 +651,7 @@ body {
 .flex-intro h2 {
 	font-size: 30px;
 	font-weight: 600;
-	color: #ffffff;
+	color: #23d3d1;
 	line-height: 1.3;
 	margin-bottom: 10px;
 	
@@ -760,7 +761,6 @@ body {
 	height: 100%;
 	padding: 100px 0;
 	background: #0c0c4a;
-	background: #fafafa;
 }
 
 .ft_cst2 {
@@ -809,7 +809,7 @@ body {
 .yd_ft_cst .f-text {
 	line-height: normal;
 	text-align: center;
-	background: #fafafa;
+	background: #000000;
 }
 
 .ft_cst2 .f-text {
@@ -2132,6 +2132,7 @@ ul#countdown li {
 
 	.flex-inner .f-text h2 {
 		font-size: 24px;
+		color :#23d3d1
 	}
 
 	.flex-inner .f-text  p {
