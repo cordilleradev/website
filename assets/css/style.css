@@ -415,7 +415,7 @@ body {
 }
 
 .hero {
-	background: linear-gradient(to right, rgba(243, 243, 245, 0), rgba(243, 243, 245, 0)), url(../images/hero-bg.png) no-repeat center center;
+	background: linear-gradient(to right, rgba(243, 243, 245, 0), rgba(243, 243, 245, 0)), url(../images/background.svg) no-repeat center center;
 	background-size: cover;
 	background-position: left;
 }
@@ -507,6 +507,7 @@ body {
 	border: 1px solid #1e266d !important;
 	outline: none !important;
 	text-decoration: none;
+	filter : brightness(50%)
 }
 
 .btn-action:focus, .btn-action:active {
@@ -1187,7 +1188,7 @@ body {
 ----------------------------------------------------------*/
 
 .yd_rev_bg {
-	background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)), url(../images/bg1.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)), url(../images/background2.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 20px;
 }
@@ -2416,3 +2417,9 @@ ul#countdown li {
 	}
 
 }
+
+
+.product-icon:hover{
+	filter: brightness(50%);
+  }
+  
